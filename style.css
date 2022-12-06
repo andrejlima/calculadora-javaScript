@@ -1,0 +1,183 @@
+*{
+    border: 0;
+}
+:root {
+    --left-0-1-4-7: -165px;
+    --left-2-5-8: -100px;
+    --left-3-6-9: -30px;
+    --top-1-2-3: 335px;
+    --top-4-5-6: 285px;
+    --top-7-8-9: 230px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#calc-img{
+    text-align: center;
+    position: relative;
+}
+
+#display{
+   
+    position: relative;
+    top: -390px;
+    font-size: 50px;
+    text-align: center;
+}
+#bt1{
+    position: absolute;
+    top: var(--top-1-2-3);
+    margin-left: var(--left-0-1-4-7);
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+    text-align: center;
+}
+#bt2{
+    position: absolute;
+    top: var(--top-1-2-3);
+    margin-left: var(--left-2-5-8);
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+    text-align: center;
+}
+#bt3{
+    position: absolute;
+    top: var(--top-1-2-3);
+    margin-left: var(--left-3-6-9);
+    text-align: center;
+    width: 57px;
+    height: 42px;
+    background: url(".../Calculadora/img/1.jpg");
+}
+#bt4{
+    position: absolute;
+    top: 285px;
+    margin-left: var(--left-0-1-4-7);
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+}
+#bt5{
+    position:absolute;
+    top: var(--top-4-5-6);
+    text-align: center;
+    margin-left: var(--left-2-5-8);
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+}
+#bt6{
+    position: absolute;
+    top: var(--top-4-5-6);
+    margin-left: var(--left-3-6-9);
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+}
+#bt7{
+    position: absolute;
+    top: 230px;
+    margin-left: var(--left-0-1-4-7);
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+}
+#bt8{
+    position: absolute;
+    top: var(--top-7-8-9);
+    margin-left: var(--left-2-5-8);
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+}
+#bt9{
+    position: absolute;
+    top: var(--top-7-8-9);
+    margin-left: var(--left-3-6-9);
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+    
+}
+#bt0{
+    position: absolute;
+    top: 388px;
+    margin-left: var(--left-0-1-4-7);
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    background: url(".../Calculadora/img/1.jpg");
+    border-radius: 10px;
+}
+#delete{
+    position: absolute;
+    top: 185px;
+    margin-left: -166px;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+    background: url(".../Calculadora/img/1.jpg");
+}
+#delet-all{
+    position: absolute;
+    top: 185px;
+    margin-left: 100px;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+    background: url(".../Calculadora/img/1.jpg");
+}
+#soma{
+    position: absolute;
+    top: 335px;
+    margin-left: 33px;
+    padding: 39px 25px;
+    text-align: center;
+    background: url(".../Calculadora/img/1.jpg");
+    border-radius: 10px;
+
+}
+#minus{
+    position: absolute;
+    top: 335px;
+    margin-left:100px;
+    text-align: center;
+    padding: 12px 26px;
+    background: url(".../Calculadora/img/1.jpg");
+
+}
+#mult{
+    position: absolute;
+    top: 282px;
+    margin-left: 35px;
+    text-align: center;
+    background: url(".../Calculadora/img/1.jpg");
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+#division{
+    position: absolute;
+    top: 282px;
+    margin-left: 102px;
+    text-align: center;
+    background: url(".../Calculadora/img/1.jpg");
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+#result{
+    position: absolute;
+    top: 387px;
+    margin-left: 102px;
+    text-align: center;
+    background: url(".../Calculadora/img/1.jpg");
+    padding: 12px 24px;
+    border-radius: 10px;}
