@@ -206,7 +206,6 @@ h1 {
 .navigation a {
     text-decoration: none;
     color: white;
-    
 }
 
 .navigation nav {
@@ -226,4 +225,47 @@ h1 {
 .navigation a:hover {
     text-decoration: none;
     color: grey;
+}
+
+@media (max-width: 590px)
+{
+    .navigation {
+        height: 45px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .navigation {
+        height: 45px;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .navigation {
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .navigation {
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 350px)
+{
+    .navigation {
+        height: 35px;
+        font-size: 14px;
+    }
+    h1{
+        font-size: 30px;
+    }
 }
